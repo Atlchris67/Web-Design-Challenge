@@ -1,5 +1,8 @@
 # Web Design Homework - Web Visualization Dashboard (Latitude)
 
+## Bonus work
+I used javascript to build a custom html include function to make the footer and header DRY. I was goung to use grunt but decide against it. I also added custom javascipt (with some jquery) to collapse the visualizations to single page and I swapped out the main panel. I was able to set the active class on the correct image on page load and content swap. 
+
 ## Background
 
 Data is more powerful when we share it with others! Let's take what we've learned about HTML and CSS to create a dashboard showing off the analysis we've done.
