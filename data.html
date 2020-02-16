@@ -1,12 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <title>Bootstrap Visualization Dashboard</title>
+  <!-- Boostrap Stylesheet -->
+  <!-- Bring in our bootstrap stylesheet -->
+  <link rel="stylesheet" href="assets\css\bootstrap.min.css">
+  <!-- Our own CSS stylesheet -->
+  <link rel="stylesheet" href="assets/css/styles.css" media="screen">
 </head>
+
 <body>
-  
+  <div w3-include-html="assets/partials/header.html"></div>
+
+  <div class="container">
+    <section class="row">
+      <div>
+        <div class="description-content">
+          <h1 class="description-header">Data</h1>
+          <hr>
+          <p class="description-content">The following table includes all of the data used for plotting this project.</p>
+          <div w3-include-html="assets/partials/table.html"></div>
+        </div>
+    </section>
+  </div>
+
+  <div w3-include-html="assets/partials/footer.html"></div>
+  <!-- jQuery CDN -->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <!-- Bootstrap CDN -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="assets/scripts/main.js"></script>
 </body>
-</html>

@@ -270,4 +270,41 @@ body {
   background-color: #4aaaa5;
 }
 
+img.img-fluid {
+  width: 95%;
+}
 /* ----FOOTER END---- */
+table {
+  border-collapse: collapse;
+  border: none;
+}
+th {
+  border-collapse: collapse;
+  border: none;
+}
+table td {
+  border: 1px solid black; 
+}
+table tr:first-child td {
+  border-top: 0;
+}
+table tr td {
+  border-left: 0;
+  border: none;
+}
+table tr:last-child td {
+  border-bottom: 0;
+}
+table tr td:last-child {
+  border-right: 0;
+}
+
+.description-content > p {
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
+hr {
+  margin-bottom: 10px;
+ 
+}
